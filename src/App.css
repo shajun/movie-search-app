@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: reb(244, 244, 244);
+  background-color: rgb(244, 244, 244);
   color: #333;
 }
 
@@ -18,7 +18,7 @@ p {
 }
 
 small {
-  font-size: 12.rem;
+  font-size: 1.2rem;
 }
 
 .container {
@@ -29,7 +29,7 @@ small {
 
 .title {
   font-size: 4.4rem;
-  text-align: center;
+  text-align: center
 }
 
 .form {
@@ -54,7 +54,7 @@ small {
 .button {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
-  padding: 1rem, 2rem;
+  padding: 1rem 2rem;
   border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 20px;
   font-size: 1.4rem;
@@ -76,4 +76,26 @@ small {
   .input {
     margin-bottom: 0;
   }
+}
+
+.card-list {
+  margin-top: 4rem;
+}
+
+.card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
+}
+
+.card--image {
+  margin: 0 auto;
+  display: block
 }
